@@ -1,0 +1,190 @@
+/* 🔹 Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 🔹 Cuerpo */
+body {
+    background-color:#ebc8b7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* 🔹 Contenedor principal */
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 🔹 Menú de navegación */
+.menu-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ebc8b7;
+    padding: 15px 30px;
+    border-bottom: 2px solid black;
+}
+
+/* 🔹 Logo */
+.logo img {
+    width: 120px;
+    height: auto;
+}
+
+/* 🔹 Menú */
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #b71b1b;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    color: rgb(213, 107, 20);
+}
+
+/* 🔹 Redes sociales */
+.redes {
+    display: flex;
+    gap: 15px;
+}
+
+.redes i {
+    font-size: 22px;
+    color: #1348c5;
+}
+
+/* 🔹 Encabezado */
+header {
+    width: 100%;
+}
+
+.imagen-header {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* 🔹 Información general */
+.info-general {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+}
+
+.n {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.p {
+    font-size: 22px;
+}
+
+/* 🔹 Sección de productos */
+.productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+}
+
+.producto {
+    flex: 1;
+    min-width: 280px;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.titulos {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tecnica {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.precio {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    margin: 10px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: #ebc8b7;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: rgb(213, 107, 20);
+}
+
+/* 🔹 Sección de Ofertas */
+.ofertas {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    background-color: #ebc8b7;
+}
+
+.ofertas-boton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 🔹 Pie de página */
+.pie {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(39, 36, 36);
+}
+
+.footer-nav {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.footer-nav a {
+    color: #b71b1b;
+    text-decoration: none;
+}
+
+.final {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #b71b1b;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
